@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animate-zoom-in {
+  transform: scale(0);
+}
+
+#upgrade-version-modal-body[data-open="true"] .animate-zoom-in {
+  transform: scale(1);
+}
+
+.overlay {
+  opacity: 0;
+}
+#upgrade-modal-version[data-open="true"] .overlay {
+  opacity: 0.5;
+}
