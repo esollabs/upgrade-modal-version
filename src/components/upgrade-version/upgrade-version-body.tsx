@@ -132,10 +132,10 @@ export default UpgradeVersionBody;
 const HederDefault = (
   <>
     <div className="w-full text-center text-lg font-bold text-black">
-      Phiên bản mới đã sẵn sàng
+      New version is available
     </div>
     <div className="w-full text-center text-sm font-light text-black">
-      Hãy cập nhật để trải nghiệm!
+      Update today for a great experience!
     </div>
   </>
 );

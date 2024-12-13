@@ -23,7 +23,7 @@ function App() {
         </p>
       </div>
 
-      <UpgradeVersionModal type="modal" packageJson={pkg} />
+      <UpgradeVersionModal type="popup" packageJson={pkg} />
     </div>
   );
 }

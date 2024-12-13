@@ -35,7 +35,7 @@ export function ProgressButton() {
       </span>
 
       <span className="max-w-[70px] overflow-hidden whitespace-nowrap text-nowrap opacity-100 transition-all duration-300 group-data-[load=true]:max-w-0 group-data-[load=true]:opacity-0">
-        Cập nhật
+        Upgrade
       </span>
     </>
   );
