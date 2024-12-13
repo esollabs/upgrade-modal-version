@@ -18,7 +18,7 @@
 
 6. Seamless integration with PWA projects.
 
----
+## ![display](./public/display.png)
 
 ## Installation
 

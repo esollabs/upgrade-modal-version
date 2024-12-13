@@ -13,7 +13,7 @@ const UpgradeVersionBody = ({
   version = VersionDefault,
   button,
   projectionModifier = "0.5rem",
-  color = "#00BAEE",
+  color = "#232A75",
 }: {
   loading: boolean;
   targetVersion: string;
