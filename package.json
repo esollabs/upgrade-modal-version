@@ -1,5 +1,5 @@
 {
-  "name": "@frontend/upgrade-modal-version",
+  "name": "upgrade-modal-version",
   "version": "1.0.0",
   "private": false,
   "type": "module",

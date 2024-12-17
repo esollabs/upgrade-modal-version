@@ -18,7 +18,7 @@
 
 6. Seamless integration with PWA projects.
 
-## ![display](./public/display.png)
+## ![display](https://raw.githubusercontent.com/esollabs/upgrade-modal-version/refs/heads/main/public/display.png)
 
 ## Installation
 
@@ -57,8 +57,8 @@ self.addEventListener('message', (event) => {
 Import and provide your package.json to the UpgradeModal component:
 
 ```tsx
-import UpgradeVersionModal from "@frontend/upgrade-modal-version";
-import '@frontend/upgrade-modal-version/dist/style.css'
+import UpgradeVersionModal from "upgrade-modal-version";
+import 'upgrade-modal-version/dist/style.css'
 import yourPackageJS from '../package.json';
 
 
@@ -97,8 +97,8 @@ type UpgradeVersionModalProps = {
 ## Example
 
 ```tsx
-import UpgradeVersionModal from "@frontend/upgrade-modal-version";
-import '@frontend/upgrade-modal-version/dist/style.css'
+import UpgradeVersionModal from "upgrade-modal-version";
+import 'upgrade-modal-version/dist/style.css'
 import yourPackageJS from '../package.json';
 
 function App() {
