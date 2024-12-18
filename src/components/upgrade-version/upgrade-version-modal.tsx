@@ -2,6 +2,7 @@ import useUpgradeVersion, { PackageJson } from "@/hooks/useUpgradeVersion";
 import BottomModal from "../base-modal/bottom-modal";
 import ZoomModal from "../base-modal/zoom-modal";
 import UpgradeVersionBody from "./upgrade-version-body";
+import { JSX } from "react";
 
 type UpgradeVersionModalProps = {
   packageJson: PackageJson;

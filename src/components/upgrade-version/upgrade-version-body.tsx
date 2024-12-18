@@ -1,3 +1,4 @@
+import { JSX } from "react";
 import Rocket from "../icon/rocket";
 import { ProgressButton } from "./progress-button";
 
