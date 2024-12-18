@@ -1,4 +1,4 @@
 import "./src/index.css";
 import UpgradeVersionModal from "./src/components/upgrade-version/upgrade-version-modal";
 
-export { UpgradeVersionModal };
+export default UpgradeVersionModal;
