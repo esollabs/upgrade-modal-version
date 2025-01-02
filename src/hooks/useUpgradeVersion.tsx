@@ -53,7 +53,9 @@ const useUpgradeVersion = (props: {
 
           localStorage.setItem("version", targetVersion);
           await wait(2000);
-          window.location.reload();
+          if (typeof window !== "undefined") {
+            window.location.reload();
+          }
           setLoading(false);
           onClose();
         } else {
@@ -68,6 +70,9 @@ const useUpgradeVersion = (props: {
   };
 
   useEffect(() => {
+    if (typeof window == "undefined") {
+      return;
+    }
     if (!currentVersion) {
       localStorage.setItem("version", targetVersion);
       onClose();

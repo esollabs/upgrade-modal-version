@@ -14,7 +14,7 @@ const WrapperModal = ({
   children,
   containerClassName,
 }: ModalProps) => {
-  if (!isOpen) return null;
+  if (!isOpen || typeof document === "undefined") return null;
 
   return createPortal(
     <div
